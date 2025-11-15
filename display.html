@@ -49,13 +49,13 @@
         container.appendChild(h);
       }
 
-      if (imgPath){
-        const img = document.createElement('img');
-        img.className = 'cover';
-        img.src = imgPath;
-        img.alt = title || 'cover';
-        container.appendChild(img);
-      }
+      // if (imgPath){
+      //   const img = document.createElement('img');
+      //   img.className = 'cover';
+      //   img.src = imgPath;
+      //   img.alt = title || 'cover';
+      //   container.appendChild(img);
+      // }
 
       try {
         const res = await fetch(docPath);
