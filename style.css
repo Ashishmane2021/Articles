@@ -51,7 +51,7 @@ body{
 .excerpt{ color:var(--muted); }
 
 /* Limit images that come from inside the .docx file */
-.doc-content img {
+.articleContainer img {
   width: 500px;
   max-width: 100%;
   height: auto;
